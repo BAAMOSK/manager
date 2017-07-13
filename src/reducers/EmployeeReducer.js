@@ -6,9 +6,7 @@ export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
 
     case EMPLOYEES_FETCH_SUCCESS:
-      // return action.payload;
-      console.log(action);
-      return state;
+      return action.payload;
     default:
       return state;
   }
