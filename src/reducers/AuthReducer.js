@@ -1,9 +1,8 @@
-import { EMAIL_CHANGED, PASSWORD_CHANGED, LOGIN_USER_SUCCESS, LOGIN_USER_FAIL, LOGIN_USER } from '../actions/types';
+import { EMAIL_CHANGED, PASSWORD_CHANGED, LOGIN_USER_SUCCESS, LOGIN_USER_FAIL, LOGIN_USER, CREATE_USER } from '../actions/types';
 
 const INITIAL_STATE = { email: '', password: '', user: '', error: '', loading: false };
 
 export default (state = INITIAL_STATE, action) => {
-  console.log('What is going on?', action.type);
   switch (action.type) {
 
     case EMAIL_CHANGED:
@@ -19,6 +18,9 @@ export default (state = INITIAL_STATE, action) => {
       return { ...state, error: 'Authentication Failed', password: '', loading: false };
 
     case LOGIN_USER:
+      return { ...state, loading: true, error: '' };
+
+    case CREATE_USER:
       return { ...state, loading: true, error: '' };
 
     default:

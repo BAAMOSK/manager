@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\TeeMa\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-communications
+
+PATH: 
+  C:\Users\TeeMa\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\TeeMa\bin;C:\ProgramData\Oracle\Java\javapath;C:\Java;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\RemObjects Software\Elements\bin;C:\Users\TeeMa\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\TDM-GCC-64\bin;C:\Python35\Scripts;C:\Program Files (x86)\Brackets\command;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files (x86)\Skype\Phone;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\TeeMa\Vim\vim80;C:\Users\TeeMa\Vim;C:\Program Files\PostgreSQL\9.6\bin;C:\Ruby23\bin;C:\Users\TeeMa\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\TeeMa\AppData\Local\Programs\Python\Python36-32;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.2.0\bin;C:\Users\TeeMa\AppData\Local\Microsoft\WindowsApps;C:\Users\TeeMa\AppData\Local\learn_ide\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Heroku\bin;C:\Users\TeeMa\AppData\Roaming\npm;C:\path-to-ruby\bin;C:\Users\TeeMa\AppData\Local\Android\sdk\platform-tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  0.24.4
+
+Node version: 
+  6.10.2
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "manager",
+    "version": "0.0.0",
+    "description": "Hello Expo!",
+    "author": null,
+    "private": true,
+    "main": "node_modules/expo/AppEntry.js",
+    "dependencies": {
+      "expo": "^18.0.4",
+      "firebase": "^4.1.3",
+      "lodash": "^4.17.4",
+      "react": "16.0.0-alpha.12",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-18.0.1.tar.gz",
+      "react-native-communications": "^2.2.1",
+      "react-native-router-flux": "3.41.0",
+      "react-redux": "^5.0.5",
+      "redux": "^3.7.1",
+      "redux-thunk": "^2.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\TeeMa\manager\node_modules\babel-generator\node_modules\.bin'
+      at Error (native)
